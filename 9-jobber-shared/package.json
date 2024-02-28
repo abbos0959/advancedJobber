@@ -18,8 +18,8 @@
     "trailingComma": "es5"
   },
   "keywords": [],
-  "name": "@abbos0959",
-  "author": "",
+  "name": "@abbos0959/advancedJobber",
+  "author": "Abbos G'ulomov",
   "repository": {
     "type": "git",
     "url": ""
@@ -37,5 +37,16 @@
       "require": "./cjs/icons/index.js"
     }
   },
-  "types": "./src/index.d.ts"
+  "types": "./src/index.d.ts",
+  "dependencies": {
+    "express": "^4.18.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6"
+  }
 }
